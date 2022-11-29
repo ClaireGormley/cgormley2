@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
+        <title>Personal Life</title>
+        
+        <style>
+           *{font-family: 'Oswald', sans-serif;}
+        .header{padding-bottom:20px;
+                margin-bottom:10px;text-align:center;
+                background-color:#dff9fb;}
+
+        .grid{display:grid;
+            grid-template-columns:1fr 1fr 1fr;
+            column-gap:20px}
+
+        .div1{border:solid 2px #ff7979;padding-bottom:50px;
+            padding-top:10px;padding-left:5px;padding-right:5px;}
+
+        .div2{border:solid 2px #ff7979;padding-bottom:50px;
+            padding-top:10px;padding-left:5px;padding-right:5px;}
+
+        .div3{border:solid 2px #ff7979;padding-bottom:50px;
+            padding-left:5px;padding-right:5px;}
+
+        .pete{object-position:center;}
+
+        .footer{text-align:center;Padding-top:10px;
+                padding-bottom:10px;
+           background-color:#c7ecee;}
+
+        ul{border:none;
+                display:inline-block;
+                list-style:none;
+                padding-left:0px;
+                position:absolute; 
+                left:20px;
+                top:20px;
+                bottom:20px;
+                z-index:1;}
+
+            li a {text-decoration:none;
+                color:black;
+                background-color:white;
+                display:block;
+                width:90px;
+                padding-top:20px;
+                padding-bottom:20px;
+                text-align:center;}
+
+            li a:hover{background-color:#95afc0;}
+
+            li a.active{background-color:#c7ecee;}
+            li {float:left;}
+        </style>
+
+    <body>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="digitalcv.html">Student Life</a></li>
+            <li><a class ="active" href="digitalcv2.html">Personal Life</a></li>
+            
+        </ul> 
+    <div class="header">
+            <h1>Personal Life</h1> 
+            <img src="favicon-32x32.png">
+        </div>
+    <div class="grid">
+        <div class="div1">
+            <p>I am from Bethlehem, a town in eastern Pennsylvania, where I have lived my entire life.</p>
+            <p><iframe width="550" height="315" src="https://www.youtube.com/embed/r7qVwMiMGMw" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <p>My favorite places around town are The Cup and Geakers.</p>
+               <p>My favorite events in Bethlehem are Musikfest and the Peep drop. </p> 
+              <p>  Musikfest is the nation's largest free music festival and has been running since 1984. </p>
+                The Peep Drop is an annual celebration put on by Just Born where they drop a 400lb peep to ring in the New Year.  
+            
+        </div>
+
+        <div class="div2">
+            <p>I have two older siblings, Ben and Grace.</p> 
+            <img src="images/Ben and Grace.JPG" width="300">
+            <p>And this is my dog Pete. (He's 15)</p>
+            <img class="pete"src="images/pete.JPG" width="300">
+        </div>
+
+        <div class="div3">
+        <p>I enjoy reading, painting, and watching bad reality tv.</p>
+        <img src="https://uploads4.wikiart.org/00191/images/frank-w-benson/frank-w-benson-summer-google-art-project.jpg!Large.jpg"width="300">
+        <p> Here is one of my favorite paintings, done by<a href="https://www.frankwbenson.com/biography/"target="_blank"> Frank W. Benson</a></p>
+        </div>    
+    </div>
+
+    <div class="footer"> contact me at: gormleyca@gmail.com</div>
+    </body>
+</html>
